@@ -1,0 +1,107 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+    background-image: url("../images/palm.jpg");
+   
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.header a{
+text-decoration: none;
+ color:white;
+ font-family: sans-serif;
+ font-weight: 700;
+  letter-spacing: 2px;
+  font-size: large;
+  border-style: solid;
+  padding: 10px 15px 10px 15px;
+  margin-left:2rem;
+  border-radius: 8px;
+}
+form{
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 15px;
+    padding: 40px;
+    max-width: fit-content;
+  
+}
+
+.form_div
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.form_div .btn{
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    border-radius:15px ;
+    border-style:none;
+    background: hsla(145, 84%, 73%, 1);
+
+background: linear-gradient(90deg, hsla(145, 84%, 73%, 1) 0%, hsla(150, 61%, 48%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(145, 84%, 73%, 1) 0%, hsla(150, 61%, 48%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(145, 84%, 73%, 1) 0%, hsla(150, 61%, 48%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#82F4B1", endColorstr="#30C67C", GradientType=1 );
+
+  }
+
+
+form .f2
+ {
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+.Name{
+    display: flex;
+    margin-bottom:5px;
+}
+.heading{
+display:flex;
+align-items: center;
+flex-direction: column;
+}
+.heading p{
+    font-size: xxx-large;
+    font-weight: 800;
+    font-family: 'Rubik Microbe', cursive;
+    color: white;
+
+}
+.heading span{
+    color:white;
+    font-weight: 700;
+    font-size: large;
+    font-family:cursive;
+    
+}
+.inputfield{
+    width:10cm;
+    padding:5px;
+    border-radius: 5px;
+    outline: none;
+    border: solid rgba(175, 175, 175, 0.8);
+}
+
+.input_container
+{
+    margin:3px;
+}
+
+
+ 
